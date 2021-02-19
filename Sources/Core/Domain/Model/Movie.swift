@@ -9,10 +9,10 @@ import Foundation
 
 public struct Movie: Equatable, Identifiable {
     public let id: Int
-    let backdropPath: String
-    let title: String
-    let posterPath: String
-    let releaseDate: String
+    public let backdropPath: String
+    public let title: String
+    public let posterPath: String
+    public let releaseDate: String
     
     public init(id: Int, backdropPath: String, title: String, posterPath: String, releaseDate: String) {
         self.id = id
