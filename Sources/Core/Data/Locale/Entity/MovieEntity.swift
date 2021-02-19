@@ -15,7 +15,7 @@ public class MovieEntity: Object {
     @objc public dynamic var posterPath: String = ""
     @objc public dynamic var releaseDate: String = ""
     
-    public required init() { }
+    public required override init() { }
     
     public override class func primaryKey() -> String? {
         return "id"
